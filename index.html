@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html, body
+{
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+div {
+    position:relative;
+    height: 100%;
+    width:100%;
+}
+
+div img {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+</style>
+</head>
+<body>
+<div id="bg">
+  <img src="orange.png" alt="">
+</div>
+<div><img src="picture1.png" alt="Paris" style="width:25%;"></div>
+
+</body>
+</html>
